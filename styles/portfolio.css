@@ -24,6 +24,10 @@ h1 {
 h3 {
   font-size: 48px;
 }
+h5 {
+  color: var(--branding-color);
+  opacity: 0.6;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -95,6 +99,9 @@ html {
 }
 .content {
   margin: 30px;
+}
+.content a {
+  text-decoration: none;
 }
 .logo {
   max-height: 40px;
