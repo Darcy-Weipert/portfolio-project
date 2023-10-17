@@ -103,21 +103,20 @@ html {
 .content a {
   text-decoration: none;
 }
-navbar {
-  color: var(--secondary-color);
-}
-.nav-item a,
-.navbar-brand a {
+.nav-link,
+.nav-link a:hover,
+.nav-link .active a,
+.nav-item a {
   color: var(--branding-color);
   opacity: 0.6;
+  text-decoration: none;
 }
 
-.nav-item a:hover,
-.nav-item .active a,
-.navbar-brand a,
-.navbar-brand a:hover {
+.nav-item a,
+.nav-item .active a {
   color: var(--branding-color);
-  opacity: 0.9;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 footer {
