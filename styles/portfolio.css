@@ -103,31 +103,21 @@ html {
 .content a {
   text-decoration: none;
 }
-.logo {
-  max-height: 40px;
+navbar {
+  color: var(--secondary-color);
 }
-nav {
-  padding: 20px 0;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
+.nav-item a,
+.navbar-brand a {
+  color: var(--branding-color);
+  opacity: 0.6;
 }
 
-nav a:hover,
-nav li.active a {
+.nav-item a:hover,
+.nav-item .active a,
+.navbar-brand a,
+.navbar-brand a:hover {
   color: var(--branding-color);
+  opacity: 0.9;
 }
 
 footer {
