@@ -19,7 +19,7 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 h3 {
   font-size: 48px;
@@ -30,12 +30,13 @@ h5 {
 }
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
 }
 html {
   display: block;
 }
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -46,7 +47,7 @@ html {
   padding: 0;
 }
 .hero p {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -56,6 +57,9 @@ html {
   line-height: 2;
   font-weight: normal;
   font-size: 24px;
+}
+.intro p {
+  font-size: 96px;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -103,16 +107,28 @@ html {
 .content a {
   text-decoration: none;
 }
-.nav-link,
-.nav-link a:hover,
-.nav-link .active a,
-.nav-item a {
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+.nav-resume {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+.nav-item,
+.nav-resume a:hover {
   color: var(--branding-color);
   opacity: 0.6;
   text-decoration: none;
 }
 
-.nav-item a,
+.nav-resume a,
+.nav-item a:hover,
 .nav-item .active a {
   color: var(--branding-color);
   opacity: 0.8;
